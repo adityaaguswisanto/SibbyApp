@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="cornerGray" format="color" />
+    <attr name="bgGray" format="color" />
+    <attr name="textGray" format="color" />
+    <attr name="textBlack" format="color" />
+</resources>

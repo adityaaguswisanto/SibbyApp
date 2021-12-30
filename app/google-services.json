@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "484485921621",
+    "project_id": "sibbyapps-a0239",
+    "storage_bucket": "sibbyapps-a0239.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:484485921621:android:1e27b4feb71dd88aa4cddc",
+        "android_client_info": {
+          "package_name": "com.sibby.sibby"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "484485921621-c2t3gv43hj1p151qpsjkqurvs5orvq1s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAc9EjXvKcqO05jpUtjcWLMrVoMxj2th3o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "484485921621-c2t3gv43hj1p151qpsjkqurvs5orvq1s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:484485921621:android:b6215d8131b05670a4cddc",
+        "android_client_info": {
+          "package_name": "com.sibbya.sibbya"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "484485921621-c2t3gv43hj1p151qpsjkqurvs5orvq1s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAc9EjXvKcqO05jpUtjcWLMrVoMxj2th3o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "484485921621-c2t3gv43hj1p151qpsjkqurvs5orvq1s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

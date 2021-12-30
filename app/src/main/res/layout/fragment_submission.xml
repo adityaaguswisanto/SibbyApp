@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:overScrollMode="never"
+    tools:context=".ui.home.babies.submission.SubmissionFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:title="Pengajuan Bayi" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:lineSpacingExtra="8sp"
+            android:text="Pengajuan berkas bayi harus benar. Cek berulang kali sebelum mengirimkan draft Kartu Keluarga"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+        <EditText
+            android:id="@+id/edtName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/bg_edt"
+            android:hint="Nama Bayi"
+            android:inputType="textPersonName"
+            android:padding="14dp"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView3"
+            tools:ignore="Autofill,TextFields" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="18dp"
+            android:orientation="horizontal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edtName"
+            tools:ignore="UselessLeaf">
+
+            <RadioButton
+                android:id="@+id/rbMale"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:gravity="center"
+                android:text="Laki - Laki" />
+
+            <RadioButton
+                android:id="@+id/rbFemale"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="14dp"
+                android:gravity="center"
+                android:text="Perempuan" />
+
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/edtDad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/bg_edt"
+            android:hint="Nama Ayah"
+            android:inputType="textPersonName"
+            android:padding="14dp"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radioGroup"
+            tools:ignore="Autofill,TextFields" />
+
+        <EditText
+            android:id="@+id/edtMom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/bg_edt"
+            android:hint="Nama Ibu"
+            android:inputType="textPersonName"
+            android:padding="14dp"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edtDad"
+            tools:ignore="Autofill,TextFields" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="18dp"
+            android:text="Surat Keterangan Lahir"
+            android:textColor="?attr/textBlack"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edtMom" />
+
+        <ImageView
+            android:id="@+id/ivSkl"
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/bg_stripped"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_image"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="18dp"
+            android:text="Kartu Tanda Penduduk (Ayah dan Ibu)"
+            android:textColor="?attr/textBlack"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ivSkl" />
+
+        <ImageView
+            android:id="@+id/ivKtpd"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/bg_stripped"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_image"
+            app:layout_constraintEnd_toStartOf="@+id/ivKtpm"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView5"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/ivKtpm"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/bg_stripped"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_image"
+            app:layout_constraintBottom_toBottomOf="@+id/ivKtpd"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/ivKtpd"
+            app:layout_constraintTop_toTopOf="@+id/ivKtpd"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="18dp"
+            android:text="Kartu Keluarga dan Buku Nikah"
+            android:textColor="?attr/textBlack"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ivKtpd" />
+
+        <ImageView
+            android:id="@+id/ivKk"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/bg_stripped"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_image"
+            app:layout_constraintEnd_toStartOf="@+id/ivBk"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView6"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/ivBk"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/bg_stripped"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_image"
+            app:layout_constraintBottom_toBottomOf="@+id/ivKk"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/ivKk"
+            app:layout_constraintTop_toTopOf="@+id/ivKk"
+            tools:ignore="ContentDescription" />
+
+        <Button
+            android:id="@+id/btnRiject"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:text="Tolak Berkas"
+            android:textAllCaps="false"
+            app:layout_constraintBottom_toBottomOf="@+id/btnDraft"
+            app:layout_constraintEnd_toStartOf="@+id/btnDraft"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/btnDraft" />
+
+        <Button
+            android:id="@+id/btnDraft"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="32dp"
+            android:text="Kirim Draft"
+            android:textAllCaps="false"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/btnRiject"
+            app:layout_constraintTop_toBottomOf="@+id/ivKk" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.core.widget.NestedScrollView>
