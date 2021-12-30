@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudioProjects/Sibby/app/src/main/res/drawable/bg_bottom.xml" value="0.22205128205128205" />
+        <entry key="..\:/AndroidStudioProjects/Sibby/app/src/main/res/drawable/bg_edt.xml" value="0.22205128205128205" />
+        <entry key="..\:/AndroidStudioProjects/Sibby/app/src/main/res/drawable/bg_selector.xml" value="0.21145833333333333" />
+        <entry key="..\:/AndroidStudioProjects/Sibby/app/src/main/res/drawable/bg_status.xml" value="0.22552083333333334" />
+        <entry key="..\:/AndroidStudioProjects/Sibby/app/src/main/res/drawable/bg_stripped.xml" value="0.22552083333333334" />
+        <entry key="..\:/AndroidStudioProjects/Sibby/app/src/main/res/drawable/ic_babies.xml" value="0.22552083333333334" />
+        <entry key="..\:/AndroidStudioProjects/Sibby/app/src/main/res/drawable/ic_date.xml" value="0.22552083333333334" />
+        <entry key="..\:/AndroidStudioProjects/Sibby/app/src/main/res/drawable/ic_family.xml" value="0.22552083333333334" />
+        <entry key="..\:/AndroidStudioProjects/Sibby/app/src/main/res/drawable/ic_logout.xml" value="0.22552083333333334" />
+        <entry key="..\:/AndroidStudioProjects/Sibby/app/src/main/res/drawable/ic_news.xml" value="0.22552083333333334" />
+        <entry key="..\:/AndroidStudioProjects/Sibby/app/src/main/res/drawable/ic_notification.xml" value="0.22552083333333334" />
+        <entry key="..\:/AndroidStudioProjects/Sibby/app/src/main/res/drawable/ic_privacy.xml" value="0.22552083333333334" />
+        <entry key="..\:/AndroidStudioProjects/Sibby/app/src/main/res/drawable/ic_right.xml" value="0.22552083333333334" />
+        <entry key="..\:/AndroidStudioProjects/Sibby/app/src/main/res/drawable/ic_settings.xml" value="0.22552083333333334" />
+        <entry key="..\:/AndroidStudioProjects/Sibby/app/src/main/res/drawable/rd_selected.xml" value="0.21145833333333333" />
+        <entry key="..\:/AndroidStudioProjects/Sibby/app/src/main/res/drawable/rd_unselected.xml" value="0.22552083333333334" />
+        <entry key="..\:/AndroidStudioProjects/Sibby/app/src/main/res/layout/activity_auth.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/Sibby/app/src/main/res/layout/activity_home.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/Sibby/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/AndroidStudioProjects/Sibby/app/src/main/res/layout/babies.xml" value="0.5" />
+        <entry key="..\:/AndroidStudioProjects/Sibby/app/src/main/res/layout/babies_item.xml" value="0.5" />
+        <entry key="..\:/AndroidStudioProjects/Sibby/app/src/main/res/layout/fragment_account.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/Sibby/app/src/main/res/layout/fragment_babies.xml" value="0.209375" />
+        <entry key="..\:/AndroidStudioProjects/Sibby/app/src/main/res/layout/fragment_details.xml" value="0.5" />
+        <entry key="..\:/AndroidStudioProjects/Sibby/app/src/main/res/layout/fragment_failure.xml" value="0.33" />
+        <entry key="..\:/AndroidStudioProjects/Sibby/app/src/main/res/layout/fragment_forgot.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/Sibby/app/src/main/res/layout/fragment_home.xml" value="0.22" />
+        <entry key="..\:/AndroidStudioProjects/Sibby/app/src/main/res/layout/fragment_login.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/Sibby/app/src/main/res/layout/fragment_news.xml" value="0.1671195652173913" />
+        <entry key="..\:/AndroidStudioProjects/Sibby/app/src/main/res/layout/fragment_notification.xml" value="0.14221014492753623" />
+        <entry key="..\:/AndroidStudioProjects/Sibby/app/src/main/res/layout/fragment_settings.xml" value="0.1838768115942029" />
+        <entry key="..\:/AndroidStudioProjects/Sibby/app/src/main/res/layout/fragment_status.xml" value="0.15443840579710144" />
+        <entry key="..\:/AndroidStudioProjects/Sibby/app/src/main/res/layout/fragment_submission.xml" value="0.31728492501973166" />
+        <entry key="..\:/AndroidStudioProjects/Sibby/app/src/main/res/layout/load_state_item.xml" value="0.22" />
+        <entry key="..\:/AndroidStudioProjects/Sibby/app/src/main/res/layout/news_item.xml" value="0.33" />
+        <entry key="..\:/AndroidStudioProjects/Sibby/app/src/main/res/layout/notification_item.xml" value="0.5" />
+        <entry key="..\:/AndroidStudioProjects/Sibby/app/src/main/res/layout/settings_item.xml" value="0.14221014492753623" />
+        <entry key="..\:/AndroidStudioProjects/Sibby/app/src/main/res/layout/submission_item.xml" value="0.22" />
+        <entry key="..\:/AndroidStudioProjects/Sibby/app/src/main/res/menu/graph.xml" value="0.209375" />
+        <entry key="..\:/AndroidStudioProjects/Sibby/app/src/main/res/menu/search.xml" value="0.209375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
